@@ -1,7 +1,7 @@
 # CSE 11 Fall 2022 PA5 - Image Editor
 **Due date: Thursday, Nov 3 @11:59PM PDT**
 
-There is an [FAQ post](TODO) on Piazza. Please read that post first if you have any questions.
+There is an [FAQ post](https://piazza.com/class/l871flmwsqy8i/post/636) on Piazza. Please read that post first if you have any questions.
 
 **Download the starter code from GitHub by clicking: Code $\rightarrow$ Download ZIP**
 
