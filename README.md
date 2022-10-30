@@ -165,7 +165,8 @@ Here's an example of how you can test your code.
 public static void main(String[] args) throws IOException {
     load("ucsd.png");
     int[][] patchedImage = open("khosla.png");
-    patch(50, 100, patchedImage, 255, 255, 255);
+    int patchedPixels = patch(50, 100, patchedImage, 255, 255, 255);
+    System.out.println(patchedPixels);
     save("ucsd_patch_khosla.png");
 }
 ```
