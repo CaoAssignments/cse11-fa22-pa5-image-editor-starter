@@ -229,7 +229,7 @@ A full style guide can be found [here](https://github.com/CaoAssignments/style-g
 ## Extra Credit [3 Points]
 And now it's your time to shine! Use **all** of these three methods to edit one image to earn **3** extra points for this programming assignment. At the minimum, you need to include a `main` method that calls these three methods. Please be creative and feel free to implement new methods. We will not grade style on this part.
 
-*Note: for the input images, you must take your own images or draw them. You are **not** allowed to use images not created by you (e.g. from the internet).*
+*Note: for the input images, you must take your own images or draw them. You can also use our sample images provided in this repo. However, you are **not** allowed to use images not created by you (e.g. from the internet).*
 
 #### Specifications
 - Your code should be in a file named `ImageEditorEC.java`, and in a class named `ImageEditorEC`. 
