@@ -227,15 +227,29 @@ Coding style is an important part of ensuring readability and maintainability of
 A full style guide can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/README.md) and a sample styled file can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java). If you need any clarifications, feel free to ask on Piazza.
 
 ## Extra Credit [3 Points]
-And now it's your time to shine! Use **all** of these three methods to edit one image to earn **3** extra points for this programming assignment. At the minimum, you need to include a `main method` that calls these three methods. Please be creative and feel free to implement new methods. And then save this specific piece of code in a new file named `ImageEditorEC.java`, name the input images as `input<name>.png` where you replace `<name>` (i.e. `input-original.png`), and name the edited image as `output.png`. **Note: For the input images, you should should take your own images or draw them (do not take images from the internet)** Please submit all these three files on Gradescope and style will not be graded.
+And now it's your time to shine! Use **all** of these three methods to edit one image to earn **3** extra points for this programming assignment. At the minimum, you need to include a `main` method that calls these three methods. Please be creative and feel free to implement new methods. We will not grade style on this part.
+
+*Note: for the input images, you must take your own images or draw them. You are **not** allowed to use images not created by you (e.g. from the internet).*
+
+#### Specifications
+- Your code should be in a file named `ImageEditorEC.java`, and in a class named `ImageEditorEC`. 
+- Your input images should be named as `input-<name>.png` where you replace `<name>` with a meaning label (i.e. `input-original.png`). You can have one or more input images. 
+- Your code should save the generated image to `output.png`.
+- Your code should be able to produce the same `output.png` when we run `javac ImageEditorEC.java` and `java ImageEditorEC`.
+- All of the files should be placed under the same folder, and you should open/save the files with their names only. 
+   - For example, you should use `load("input-original.png")` instead of `load("D:\\CSE 11\\input-original.png")`. If you did later, your code would not work on the Autograder as we will run your code in a different folder.
 
 ## Submission & Grading
-Submit the following file to Gradescope by **Thursday, Nov 3 @ 11:59PM PDT**.
+Submit the following files to Gradescope by **Thursday, Nov 3 @ 11:59PM PDT**.
 
 - `ImageEditor.java`
-- `ImageEditorEC.java` (optional)
-- `input.png` (optional)
-- `output.png` (optional)
+
+For Extra Credit (optional), submit the following files to the separate "Extra Credit" assignment on Gradescope by **Thursday, Nov 3 @ 11:59PM PDT**.
+
+- `ImageEditorEC.java`
+- `ImageEditor.java`
+- `input-<name>.png` (can be as many as you want)
+- `output.png`
 
 **Important:** Even if your code does not pass all the tests, you will still be able to submit your homework to receive partial points for the tests that you passed. **Make sure your code compiles on Gradescope in order to receive partial credit. The file names need to be correct, otherwise no points will be given for the submission.** 
 
