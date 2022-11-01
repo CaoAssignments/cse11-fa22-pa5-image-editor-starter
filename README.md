@@ -154,7 +154,7 @@ patchImage, int transparentRed, int transparentGreen, int transparentBlue)`
         - `startRow` or `startColumn` is less than 0 or greater than the height or width respectively
         - The *ending* row or column is greater than the height or width respectively
     - Example: Suppose we have a 2x2 image and want to patch `patchImage` at (1, 1). The starting position is (1, 1) and the ending position is (2,2). Keep in mind to make sure both the *starting* and the *ending* position are within `image`, otherwise it is invalid.
-![](https://i.imgur.com/H8RgrES.png)
+![](https://i.imgur.com/bjJcqpX.png)
     
 ### Testing
 For this PA, 70% of the test cases can be found on Gradescope and the remaining will be hidden. You will not be able to see the hidden test cases until after grades are released. It is your responsibility to test your program comprehensively. 
